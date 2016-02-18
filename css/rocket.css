@@ -37,8 +37,12 @@
 	background-color: green;
 	transition: bottom 10000ms;
 }
+body.body-state1 .rocket {
+	transition: none;
+}
 
-body.body-state3 .rocket {
+body.body-state3 .rocket,
+body.body-state4 .rocket {
 	bottom: 1000px;
 }
 
